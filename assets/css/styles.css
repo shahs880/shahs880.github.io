@@ -1,0 +1,29 @@
+body {
+	font-family: arial;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: 5px;
+	margin: 0px;
+	padding: 50px;
+}
+
+h1, h2 {
+	font-size: 20px;
+	margin: 0px;
+	font-weight: normal;
+}
+a {
+	color: #ff0000;
+}
+
+div{
+	margin-bottom: 40px;
+}
+
+img{
+	margin-bottom: 40px;
+}
+
+ul {
+	margin: 0;
+}
