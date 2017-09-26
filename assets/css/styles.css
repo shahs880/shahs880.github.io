@@ -3,27 +3,39 @@ body {
 	font-size: 20px;
 	line-height: 28px;
 	letter-spacing: 5px;
-	margin: 0px;
+	margin: 0;
 	padding: 50px;
 }
+.about {
+	background: #000;
+	color: #fff;
+}
 
-h1, h2 {
+.about a {
+	color: #fff;
+}
+
+h1,h2 {
 	font-size: 20px;
-	margin: 0px;
+	margin: 0;
 	font-weight: normal;
 }
-a {
-	color: #ff0000;
-}
 
-div{
+a {
+	color: #000;
+
+div {
 	margin-bottom: 40px;
 }
 
-img{
+img {
 	margin-bottom: 40px;
 }
 
 ul {
 	margin: 0;
+}
+
+p {
+	width: 710px;
 }
