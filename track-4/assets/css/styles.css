@@ -1,0 +1,30 @@
+* { vertical-align: top; }
+* { box-sizing: border-box; }
+
+body {
+	padding: 25px;
+	margin: 0;
+	background: #000;
+}
+
+.wrapper{
+	background: #000;
+	width: 970px;
+	margin:0 auto 0 auto;
+}	
+
+.c {
+	display: inline-block;
+	margin: 0 15px 25px 15px;
+}
+
+.no-left-gutter {margin-left: 0;}
+.no-right-gutter {margin-right: 0;}
+.whitespace-fix {font-size:0;}
+
+.c1 {height: 467px;}
+.c2 {height: 301px;}
+.c3 {height: 146px;}
+.c4 {height: 457px;}
+
+img {height: 100%}
