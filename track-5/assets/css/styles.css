@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	background: #B1B1B1;
+}
+
+img {
+	height: 550px;
+	width: 700px;
+	vertical-align: middle;
+	margin: 50px;
+}
+
+.rectangle {
+	height: 30px;
+	width: 70px;
+	background: #E74444;
+	position: fixed; 
+	top: 0;
+	right: 0;
+	
+}
+.rectangle2 {
+	height: 30px;
+	width: 70px;
+	background: #F9D131;
+	position: fixed; 
+	top: 30px;
+	right: 0;
+}
