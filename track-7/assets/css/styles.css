@@ -1,0 +1,136 @@
+* { vertical-align: top; }
+* { box-sizing: border-box; }
+
+body {
+	background: #000;
+	padding: 0;
+	margin: 0;
+}
+
+.c {
+	margin: 0 10px 25px 125px;
+}
+
+.no-left-gutter {margin-left: 0;}
+.no-right-gutter {margin-right: 0;}
+.whitespace-fix {font-size:0;}
+
+.c1 { position: absolute;
+	top: 150px;
+	left: 237px;
+}
+
+.c2 {
+	position: absolute;
+	top: 213px;
+	left: 155px;
+}
+
+.c3 { position: absolute;
+	top: 315px;
+	left: 155px;
+}
+
+.c4 {
+	position: absolute;
+	top: 388px;
+	left: 155px;
+}
+
+.c5 {
+	position: absolute;
+	top: 409px;
+	left: 219px;
+}
+
+.c6 {
+	position: absolute;
+	top: 68px;
+	left: 679px;
+}
+
+.c7 {
+	position: absolute;
+	top: 101px;
+	left: 268px;
+}
+
+.c8 {
+	position: absolute;
+	top: 60px;
+	left: 317px;
+}
+
+.c9 {
+	position: absolute;
+	top: 178px;
+	left: 537px;
+}
+
+.c10 {
+	position: absolute;
+	top: 434px;
+	left: 379px;
+}
+
+.c11 {
+	position: absolute;
+	top: 399px;
+	left: 612px;
+}
+
+.c12 {
+	position: absolute;
+	top: 441px;
+	left: 570px;
+}
+
+.c13 {
+	position: absolute;
+	top: 434px;
+	left: 570px;
+}
+
+.c14 {
+	position: absolute;
+	top: 560px;
+	left: 403px;
+}
+
+.c15 {
+	position: absolute;
+	top: 603px;
+	left: 210px;
+}
+
+.c16 {
+	position: absolute;
+	top: 624px;
+	left: 228px;
+}
+
+.c17 {
+	position: absolute;
+	top: 458px;
+	left: 675px;
+}
+
+.c18 {
+	position: absolute;
+	top: 495px;
+	left: 796px;
+}
+
+.c19 {
+	position: fixed;
+	top: 0px;
+	left: 1061px;
+}
+
+.c20 {
+	position: fixed;
+	bottom: -25px;
+	right: 1176px;
+}
+
+img {height: 100%}
