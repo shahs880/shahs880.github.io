@@ -8,3 +8,15 @@ body {
 a {
 	color: #006666;
 }
+
+.c2 {
+	position: fixed;
+	top: 10px;
+	right: 0px;
+}
+
+.c1 {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
