@@ -1,65 +1,324 @@
+* { vertical-align: top; }
 * { box-sizing: border-box; }
 
-body {
-	background: #ff0;
-	font-size: 0;
-}
-
-.wrapper {
-	margin: 0 auto;
-}
-
-.c {
-	display: inline-block;
-	padding: 0 20px 0 20px;
-	margin: 0 0 50px 0;
-	background-color: #f1f1f1;
-	font-size: 20px;
-}
-
-.c1 { width: 25%; }
-
-
-.button-wrapper {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
 .button {
-	width: 175px;
-	height: 175px;
+	width: 219px;
+	height: 219px;
 	background: url(../img/button.png);
-	border-radius: 100%;
-	font-size: 20px;
-	transition: all 500ms ease;
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 50px;
+	left: 100px;
 }
-
 .button:hover {
-	background-position: -175px 0;
+	background-position: -219px 0;
 	transform: rotate(90deg);
 }
-
-a.button:link { color: #000; }
-a.button:visited { color: #000; }
-a.button:hover { color: #000; }
-a.button:active { color: #000; }
-
-
-.button-text {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	font-family: arial, sans-serif;
-	background: #fff;
-	width: 90px;
-
+.button.active, .button.active:hover{
+	background: #023960;
+	transform: rotate(180deg);
 }
 
-.button:active {
+.button2 {
+	width: 219px;
+	height: 100px;
+	background: url(../img/button2.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+}
+.button2:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button2.active, .button2.active:hover{
+	background: #014FB5;
 	transform: rotate(180deg);
-	background-color: #000;
+}
 
+.button3 {
+	width: 219px;
+	height: 50px;
+	background: url(../img/button3.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 425px;
+	left: 100px;
+}
+.button3:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button3.active, .button3.active:hover{
+	background: #C99058;
+	transform: rotate(180deg);
+}
+
+.button4 {
+	width: 219px;
+	height: 100px;
+	background: url(../img/button4.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 500px;
+	left: 100px;
+}
+.button4:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button4.active, .button4.active:hover{
+	background: #084276;
+	transform: rotate(180deg);
+}
+
+.button5 {
+	width: 219px;
+	height: 50px;
+	background: url(../img/button5.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 625px;
+	left: 100px;
+}
+.button5:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button5.active, .button5.active:hover{
+	transform: rotate(180deg);
+}
+
+.button6 {
+	width: 219px;
+	height: 50px;
+	background: url(../img/button6.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 705px;
+	left: 100px;
+}
+.button6:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button6.active, .button6.active:hover{
+	background: #02228B;
+	transform: rotate(180deg);
+}
+
+.button7 {
+	width: 219px;
+	height: 95px;
+	background: url(../img/button7.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 50px;
+	left: 345px;
+}
+.button7:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button7.active, .button7.active:hover{
+	background: #000D9A;
+	transform: rotate(180deg);
+}
+
+.button8 {
+	width: 219px;
+	height: 100px;
+	background: url(../img/button8.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 172px;
+	left: 345px;
+}
+.button8:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button8.active, .button8.active:hover{
+	background: #1B6CA1;
+	transform: rotate(180deg);
+}
+
+.button9 {
+	width: 219px;
+	height: 50px;
+	background: url(../img/button9.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 300px;
+	left: 345px;
+}
+.button9:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button9.active, .button9.active:hover{
+	background: #82563E;
+	transform: rotate(180deg);
+}
+
+.button10 {
+	width: 219px;
+	height: 50px;
+	background: url(../img/button10.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 375px;
+	left: 345px;
+}
+.button10:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button10.active, .button10.active:hover{
+	background: #403131;
+	transform: rotate(180deg);
+}
+
+.button11 {
+	width: 219px;
+	height: 219px;
+	background: url(../img/button11.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 455px;
+	left: 345px;
+}
+.button11:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button11.active, .button11.active:hover{
+	background: #065C7A;
+	transform: rotate(180deg);
+}
+
+.button12 {
+	width: 219px;
+	height: 50px;
+	background: url(../img/button12.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 705px;
+	left: 345px;
+}
+.button12:hover {
+	background-position: -219px 0;
+	transform: rotate(90deg);
+}
+.button12.active, .button12.active:hover{
+	background: #065C7A;
+	transform: rotate(180deg);
+}
+
+.button13 {
+	width: 38px;
+	height: 694px;
+	background: url(../img/button13.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 55px;
+	left: 590px;
+}
+.button13:hover {
+	background-position: -38px 0;
+	transform: rotate(90deg);
+}
+.button13.active, .button13.active:hover{
+	background: #D2A562;
+	transform: rotate(180deg);
+}
+
+.button14 {
+	width: 38px;
+	height: 694px;
+	background: url(../img/button14.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 55px;
+	left: 650px;
+}
+.button14:hover {
+	background-position: -38px 0;
+	transform: rotate(90deg);
+}
+.button14.active, .button14.active:hover{
+	background: #775141;
+	transform: rotate(180deg);
+}
+
+.button15 {
+	width: 38px;
+	height: 694px;
+	background: url(../img/button15.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 55px;
+	left: 710px;
+}
+.button15:hover {
+	background-position: -38px 0;
+	transform: rotate(90deg);
+}
+.button15.active, .button15.active:hover{
+	background: #02395C;
+	transform: rotate(180deg);
+}
+
+.button16 {
+	width: 38px;
+	height: 694px;
+	background: url(../img/button16.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 55px;
+	left: 770px;
+}
+.button16:hover {
+	background-position: -38px 0;
+	transform: rotate(90deg);
+}
+.button16.active, .button16.active:hover{
+	background: #0138A2;
+	transform: rotate(180deg);
+}
+
+.button17 {
+	width: 38px;
+	height: 694px;
+	background: url(../img/button17.png);
+	transition: all 300ms ease;
+	cursor: pointer;
+	position: absolute;
+	top: 55px;
+	left: 830px;
+}
+.button17:hover {
+	background-position: -38px 0;
+	transform: rotate(90deg);
+}
+.button17.active, .button17.active:hover{
+	background: #0377C8;
+	transform: rotate(180deg);
 }
