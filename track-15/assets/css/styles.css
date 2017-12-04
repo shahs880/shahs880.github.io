@@ -1,0 +1,171 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.no-left-gutter {margin-left: 0;}
+.no-right-gutter {margin-right: 0;}
+.whitespace-fix {font-size:0;}
+
+.a {
+	position: absolute;
+	top: 352px;
+	left: 509px;
+	background: #B02C2C;
+	width: 624px;
+	height: 624px;
+
+}
+
+.b {
+	position: absolute;
+	top: 751px;
+	left: 397px;
+	background: #236E20;
+	width: 449px;
+	height: 50px;
+}
+
+.c {
+	position: absolute;
+	top: 824px;
+	left: 397px;
+	background: #236E20;
+	width: 449px;
+	height: 33px;
+}
+
+.d {
+	position: absolute;
+	top: 537px;
+	left: 622px;
+	background: #4A90E2;
+	width: 13px;
+	height: 338px;
+}
+
+.e {
+	position: absolute;
+	top: 496px;
+	left: 671px;
+	background: #4A90E2;
+	width: 13px;
+	height: 222px;
+}
+
+.f {
+	position: absolute;
+	top: 131px;
+	left: 808px;
+	background: #000;
+	width: 13px;
+	height: 285px;
+}
+
+.g {
+	position: absolute;
+	top: 352px;
+	left: 882px;
+	background: #F5A623;
+	width: 21px;
+	height: 21px;
+}
+
+.h {
+	position: absolute;
+	top: 888px;
+	left: 1043px;
+	background: #4A90E2;
+	width: 50px;
+	height: 50px;
+}
+
+.i {
+	position: absolute;
+	top: 875px;
+	left: 1028px;
+	background: #672A7B;
+	width: 50px;
+	height: 50px;
+}
+
+.j {
+	position: absolute;
+	top: 247px;
+	left: 867px;
+	background: #F5A623;
+	width: 50px;
+	height: 50px;
+}
+
+.k {
+	position: absolute;
+	top: 142px;
+	left: 867px;
+	background: #F9D131;
+	width: 50px;
+	height: 50px;
+}
+
+.l {
+	position: absolute;
+	top: 201px;
+	left: 251px;
+	background: #F9D131;
+	width: 541px;
+	height: 9px;
+}
+
+.m {
+	position: absolute;
+	top: 180px;
+	left: 251px;
+	background: #672A7B;
+	width: 541px;
+	height: 9px;
+}
+
+.n {
+	position: absolute;
+	top: 157px;
+	left: 251px;
+	background: #3C34CF;
+	width: 541px;
+	height: 9px;
+}
+
+.o {
+	position: absolute;
+	top: 136px;
+	left: 251px;
+	background: #000;
+	width: 541px;
+	height: 9px;
+}
+
+.p {
+	position: absolute;
+	top: 84px;
+	left: 206px;
+	background: #672A7B;
+	width: 13px;
+	height: 488px;
+}
+
+.q {
+	position: absolute;
+	top: 48px;
+	left: 206px;
+	background: #236E20;
+	width: 723px;
+	height: 21px;
+}
+
+.r {
+	position: absolute;
+	top: 84px;
+	left: 804px;
+	background: #000;
+	width: 125px;
+	height: 21px;
+}
