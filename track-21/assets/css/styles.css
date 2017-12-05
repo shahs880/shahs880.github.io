@@ -10,6 +10,23 @@ body {
 .no-right-gutter {margin-right: 0;}
 .whitespace-fix {font-size:0;}
 
+
+.rectangle1{
+	width: 55px;
+	height: 30px;
+	position: absolute;
+	bottom: -850px;
+	right: 645px;
+	background: #E74444;
+}
+.rectangle2{
+	width: 55px;
+	height: 30px;
+	position: absolute;
+	bottom: -880px;
+	right: 645px;
+	background: #F9D131;
+}
 .a {
 	width: 994px;
 	height: 1179px;
