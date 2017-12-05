@@ -13,6 +13,23 @@ body {
 	right: 50px;
 }
 
+.rectangle1 {
+	width: 55px;
+	height: 35px;
+	position: absolute;
+	bottom: -850px;
+	left: 0px;
+	background: #E74444;
+}
+.rectangle2 {
+	width: 55px;
+	height: 35px;
+	position: absolute;
+	bottom: -815px;
+	left: 0px;
+	background: #F9D131;
+}
+
 .q {
 	width: 1016px;
 	height: 1016px;
