@@ -7,6 +7,23 @@ body {
 .no-right-gutter {margin-right: 0;}
 .whitespace-fix {font-size:0;}
 
+.rectangle1 {
+	width: 55px;
+	height: 35px;
+	background: #E74444;
+	position: fixed;
+	bottom: 15px;
+	left: 0px;
+}
+.rectangle2 {
+	width: 55px;
+	height: 35px;
+	background: #F9D131;
+	position: fixed;
+	bottom: 50px;
+	left: 0px;
+}
+
 .a {
 	position: absolute;
 	top: 352px;
