@@ -4,11 +4,29 @@ body {
 	bottom: 50px;
 	right: 50px;
 	background: #000;
+	cursor: pointer;
 }
 
 .no-left-gutter {margin-left: 0;}
 .no-right-gutter {margin-right: 0;}
 .whitespace-fix {font-size:0;}
+
+.rectangle1 {
+	width: 65px;
+	height: 35px;
+	background: #E74444;
+	position: absolute;
+	bottom: -800px;
+	left: 0px;
+}
+.rectangle2 {
+	width: 65px;
+	height: 35px;
+	background: #F9D131;
+	position: absolute;
+	bottom: -765px;
+	left: 0px;
+}
 
 .q {
 	width: 1016px;
