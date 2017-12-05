@@ -15,19 +15,62 @@ img {
 }
 
 .rectangle {
-	height: 30px;
-	width: 70px;
+	height: 35px;
+	width: 65px;
 	background: #E74444;
 	position: fixed; 
-	top: 0;
+	top: 35px;
 	right: 0;
 	
 }
-.rectangle2 {
-	height: 30px;
-	width: 70px;
-	background: #F9D131;
-	position: fixed; 
-	top: 30px;
-	right: 0;
+
+.b {
+	height: 509px;
+	width: 210px;
+	position: absolute;
+	top: 166px;
+	left: 875px;
+	background: #2EA02A;
+	opacity: 1;
+}
+
+.a {
+	height: 435px;
+	width: 878px;
+	position: absolute;
+	top: 166px;
+	left: 207px;
+	background: #236E20;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.c {
+	height: 435px;
+	width: 689px;
+	position: absolute;
+	top: 299px;
+	left: 344px;
+	background: #2D62A9;
+	opacity: 0.80;
+}
+
+.d {
+	height: 283px;
+	width: 210px;
+	position: absolute;
+	top: 519px;
+	left: 239px;
+	background: #83AADD;
+	opacity: 0.88;
+}
+
+.e {
+	height: 100px;
+	width: 129px;
+	position: absolute;
+	top: 468px;
+	left: 603px;
+	background: #9CB632;
+	opacity: 1;
 }
