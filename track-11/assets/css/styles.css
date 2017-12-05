@@ -1,6 +1,17 @@
 
 body {
 	margin-top: 40px;
+	cursor: pointer;
+}
+
+.rectangle1 {
+	position: fixed;
+	top: 25px;
+	right: 0px;
+	background: #E74444;
+	height: 45px;
+	width: 65px;
+	cursor: pointer;
 }
 
 .a {
