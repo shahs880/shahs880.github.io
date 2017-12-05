@@ -1,3 +1,23 @@
+body{
+	cursor: pointer;
+}
+ 
+.rectangle1{
+	width: 65px;
+	height: 40px;
+	position: fixed;
+	top: 270px;
+	right: 0;
+	background: #E74444;
+}
+.rectangle2{
+	width: 65px;
+	height: 40px;
+	position: fixed;
+	top: 310px;
+	right: 0;
+	background: #F9D131;
+}
 
  .a { 
 	width: 209px;
@@ -8,7 +28,7 @@
 	left: 263px;
 	top:57px;
  }
-
+ 
  .b { 
 	width: 35px;
 	height: 35px;
