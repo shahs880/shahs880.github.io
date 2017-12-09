@@ -8,6 +8,15 @@ body {
 	margin: 0;
 }
 
+.rectangle {
+	width: 110px;
+	height: 45px;
+	position: absolute;
+	bottom: -265px;
+	right: 0px;
+	background: #F9D131;
+}
+
 .c {
 	margin: 0 10px 25px 10px;
 }
