@@ -8,13 +8,22 @@ body {
 	margin: 0;
 }
 
-.rectangle {
+.rectangle1 {
 	width: 110px;
 	height: 45px;
-	position: absolute;
-	bottom: -265px;
+	position: fixed;
+	bottom: 45px;
 	right: 0px;
 	background: #F9D131;
+}
+
+.rectangle2 {
+	width: 110px;
+	height: 45px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background: #E74444;
 }
 
 .c {
