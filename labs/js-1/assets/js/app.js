@@ -17,7 +17,8 @@ function charge_card(amount, item) {
 	cash = cash - amount; 
 	update_wallet();
 	$('.closet-items').append(item +', ');
-} else { 
+} 
+	else { 
 	alert('not enough money.');
 	
 }
